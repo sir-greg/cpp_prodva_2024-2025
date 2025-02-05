@@ -177,9 +177,10 @@ const pair<int, std::string>& first() {
 # Exception safety:
 
 ## list
-In list it is strict and easy to implement;
+In list the exception safety is **strict** and easy to implement;
 
 ## map
+Also **strict** exception safety
 
 Insert: comparator can throw, but it throws when nothing is done, so we have nothing to rebuild. When we do rotations, we are in a safe zone (no throws).
 
