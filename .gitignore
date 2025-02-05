@@ -1,5 +1,5 @@
 # ban everything but markdown
 *
-!*.md
+!semester_2/lectures/*
 !.gitignore
 
