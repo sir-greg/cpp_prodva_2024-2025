@@ -1,5 +1,7 @@
 # ban everything but markdown
-*
-!semester_2/lectures/*
-!.gitignore
+*.cpp
+*.h
+*.hpp
+*.cxx
+semester_1/*
 
