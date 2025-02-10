@@ -192,7 +192,7 @@ We allocate as ususal, **but** when we are asked to **deallocate** a block of me
 
 Behaves like standard allocator, but operates with alignment N.
 
-## Review of functions
+## Review of functionality
 
 The key functions are *allocate* and *deallocate* (*destroy* and *construct* are mostly the same among almost all allocators, so they became optional soon).
 
